@@ -14,6 +14,7 @@
 		E50F4B642225BFAD009916E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50F4B622225BFAD009916E9 /* LaunchScreen.storyboard */; };
 		E50F4B6F2225BFAD009916E9 /* SwipeTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F4B6E2225BFAD009916E9 /* SwipeTableViewCellTests.swift */; };
 		E50F4B7A2225BFAD009916E9 /* SwipeTableViewCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F4B792225BFAD009916E9 /* SwipeTableViewCellUITests.swift */; };
+		E50F4B882225C082009916E9 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F4B872225C082009916E9 /* SwipeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E50F4B752225BFAD009916E9 /* SwipeTableViewCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeTableViewCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E50F4B792225BFAD009916E9 /* SwipeTableViewCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCellUITests.swift; sourceTree = "<group>"; };
 		E50F4B7B2225BFAD009916E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50F4B872225C082009916E9 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeTableViewCell.swift; path = ../../Source/SwipeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E50F4B592225BFAB009916E9 /* AppDelegate.swift */,
 				E50F4B5B2225BFAB009916E9 /* ViewController.swift */,
+				E50F4B872225C082009916E9 /* SwipeTableViewCell.swift */,
 				E50F4B5D2225BFAB009916E9 /* Main.storyboard */,
 				E50F4B602225BFAD009916E9 /* Assets.xcassets */,
 				E50F4B622225BFAD009916E9 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E50F4B5C2225BFAB009916E9 /* ViewController.swift in Sources */,
+				E50F4B882225C082009916E9 /* SwipeTableViewCell.swift in Sources */,
 				E50F4B5A2225BFAB009916E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
